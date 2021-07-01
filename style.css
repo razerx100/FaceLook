@@ -1,0 +1,42 @@
+.Header {
+    color: darkmagenta;
+    font-style: italic;
+}
+
+.Body {
+    background-color: burlywood;
+}
+
+.h_links {
+    float: right;
+}
+
+a.no_ul {
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+.btn {
+    background-color: white;
+    text-decoration: none;
+    color: darkmagenta;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.btn_body {
+    background-color: burlywood;
+    text-decoration: none;
+    color: darkmagenta;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.label {
+    display: inline-block;
+}
