@@ -122,7 +122,7 @@
                             echo '<h4>'.$row["username"].'</h4>
                             <p id="p_'.$row["id"].'">'.$row["description"].'</p><p class="label"> Posted on '.$row["date"].'</p>';
 
-                            if($_SESSION['user'] === $_SESSION['logged_user']){
+                            if($_SESSION['user'] === $_SESSION['logged_user'] and $_SESSION['user'] === $row['username']){
                                 echo '<span class="h_links">
                                             <form class="label" id="editForm_'.$row["id"].'" method="POST"
                                                 action="/user.php" onsubmit="return EditCheck('.$row["id"].');">
